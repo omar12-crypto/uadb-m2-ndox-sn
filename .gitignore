@@ -1,0 +1,50 @@
+# Ndocx-SN — Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Environnements
+.env
+venv/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Données montées par Docker (runtime, ne pas versionner)
+nifi-data/
+postgres-data/
+postgres/
+airflow-data/
+
+# Métadonnées Spark/Hive Derby générées à l'exécution
+models/metastore_db/
+models/derby.log
+
+# Données de sortie du pipeline
+data/
+
+# Rapports générés
+rapport/
+
+# Checkpoints Spark
+checkpoint/
+
+# NiFi templates (placeholder vide)
+nifi_templates/
+
+# Docker
+docker/nifi-data/
+docker/postgres-data/
+docker/airflow-data/
+docker/dags/
+docker/models/

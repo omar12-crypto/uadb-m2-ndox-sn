@@ -1,0 +1,6 @@
+psycopg2-binary
+apache-airflow-providers-postgres
+pyhive==0.7.0
+happybase==1.2.0
+thrift
+thrift-sasl
